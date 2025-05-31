@@ -15,7 +15,7 @@ The goal is to isolate and transplant an object from one image to another in a v
 ### Teddy: Source vs. Final Compositing
 | Original Object | Final Result |
 |-----------------|--------------|
-| ![Source](./data/imgs/teddy.png) | ![Result](./my_reasults/final_img/teddy_result.png) |
+| ![Source](./data/imgs/teddy.jpg) | ![Result](./my_reasults/final_img/teddy_result.png) |
 
 ## 📄 Full Report
 
