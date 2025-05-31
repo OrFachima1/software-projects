@@ -1,0 +1,35 @@
+# Camera: 	px   	py   	pz 	lx  	ly  	lz 	ux  	uy  	uz 	sc_dist	sc_width
+cam 	  	0   	4	5 	0   	-1   	-1  	0   	1   	0  	1.4	1.4	
+
+# Settings: 	bgr  	bgg  	bgb	sh_rays	rec_max 
+set 		0.15  	0.3  	0.72   	4 	4
+
+
+# Material:	dr    	dg    	db	sr   	sg   	sb 	rr   	rg  	rb	phong 	trans
+mtl		0.95	0.2	0.1	1	1	1	0.3	0.1	0.1	150	0       # Warm red
+mtl		0.1	0.95	0.2	1	1	1	0.1	0.3	0.1	150	0       # Fresh green
+mtl		0.2	0.1	0.95	1	1	1	0.1	0.1	0.3	150	0       # Deep blue
+mtl		0.8	0.7	0.7	1	1	1	0.5	0.5	0.5	250	0       # Light gray
+mtl		0.1	0.1	0.3	1	1	1	0.5	0.5	0.5	250	0.5     # Transparent blue
+mtl		1	1	1	1	1	1	0.8	0.8	0.8	600	0       # Mirror-like white
+mtl		1	0.8	0.4	1	1	1	0.5	0.5	0.5	150	0       # Golden
+
+# Plane:	nx	ny	nz	offset	mat_idx
+pln		0	1	0	-1	7
+
+# Spheres:	cx   	cy   	cz  	radius 	mat_idx
+sph		-2	0	-1	0.75	1       # Warm red sphere
+sph		0	0	-1	0.75	2       # Fresh green sphere
+sph		2	0	-1	0.75	3       # Deep blue sphere
+sph		-1.5	1.5	-3.5	1.5	6       # Large mirror-like sphere 1
+sph		1.5	1.5	-3.5	1.5	5       # Large transparent blue sphere
+
+# Boxes:	cx   	cy   	cz  	scale 	mat_idx
+box		-1.2	-0.5	1	1	4       # Light gray box
+box		1.2	-0.5	1	1	5       # Transparent blue box
+
+# Lights:	px	py	pz	r	g	b	spec	shadow	width
+lgt		3	4	1	0.2	0.2	0.9	1	0.9	1       # Cool blue light
+lgt		-3	4	-1	0.9	0.2	0.2	1	0.9	1       # Warm red light
+lgt		0	5	-2	0.8	0.8	0.8	1	0.9	1       # Soft white light
+lgt		0	-2	-1	0.4	0.4	0.1	1	0.7	1       # Subtle gold bottom light
