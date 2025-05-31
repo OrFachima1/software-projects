@@ -9,7 +9,7 @@ The goal is to isolate and transplant an object from one image to another in a v
 
 ## 🔍 Sample Results
 
-### GrabCut Result
+### Poisson Blending Result
 ![Grave Result](./my_reasults/PS_res/grave_result.png)
 
 ### Teddy: Source vs. Final Compositing
