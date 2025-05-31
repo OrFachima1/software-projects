@@ -10,7 +10,7 @@ The goal is to isolate and transplant an object from one image to another in a v
 ## 🔍 Sample Results
 
 ### GrabCut Result
-![Grave Result](./my_reasults/grave_result.png)
+![Grave Result](./my_reasults/PS_res/grave_result.png)
 
 ### Teddy: Source vs. Final Compositing
 | Original Object | Final Result |
